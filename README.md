@@ -92,20 +92,6 @@ uvicorn main-tf-serving:app --reload --host 0.0.0.0
 
 5. Your API is now running at `0.0.0.0:8000`
 
-## Running the Frontend
-
-1. Get inside `api` folder
-
-```bash
-cd frontend
-```
-
-2. Copy the `.env.example` as `.env` and update `REACT_APP_API_URL` to API URL if needed.
-3. Run the frontend
-
-```bash
-npm run start
-```
 
 ## Running the app
 
