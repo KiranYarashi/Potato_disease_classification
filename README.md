@@ -13,21 +13,6 @@ pip3 install -r api/requirements.txt
 
 3. Install Tensorflow Serving ([Setup instructions](https://www.tensorflow.org/tfx/serving/setup))
 
-## Setup for ReactJS
-
-1. Install Nodejs ([Setup instructions](https://nodejs.org/en/download/package-manager/))
-2. Install NPM ([Setup instructions](https://www.npmjs.com/get-npm))
-3. Install dependencies
-
-```bash
-cd frontend
-npm install --from-lock-json
-npm audit fix
-```
-
-4. Copy `.env.example` as `.env`.
-
-5. Change API url in `.env`.
 
 ## Setup for React-Native app
 
